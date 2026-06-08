@@ -225,7 +225,7 @@ def init_star(handler: Proteus):
                 if pcntle is not None:
                     # Rotation set by percentile.
                     #  The reference age must be 1 Myr for consistency with the assumptions
-                    #  withing `mors.star.Percentile()`.
+                    #  within `mors.star.Percentile()`.
                     age_rot_Myr = 1.0
                     period = None
                 else:
